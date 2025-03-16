@@ -88,6 +88,41 @@
       "category": "Design",
       "tags": ["Typography", "UI", "Fonts"],
       "createdOn": "2024-01-12"
+    },
+    {
+      "id": "11",
+      "title": "Microfront-ends",
+      "url": "https://micro-frontends.org/",
+      "description": "Building a modern web app with multiple teams that can ship features independently.",
+      "category": "Frameworks",
+      "tags": ["React",  "Vue",  "Svelte",  "Angular"],
+      "createdOn":  "2024-01-20"
+    },
+    {
+      "id": "12",
+      "title": "Module Federation",
+      "url": "https://module-federation.io/index.html",
+      "description": "A way to share code between multiple applications.",
+      "category": "Frameworks",
+      "tags": ["React", "Vue", "Svelte", "Angular"],
+      "createdOn": "2024-01-20"
+    },
+    {
+      "id": "13",
+      "title": "Web Components",
+      "url": "https://www.webcomponents.org/",
+      "description": "A set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps",
+      "category": "Components",
+      "tags":  ["React", "Vue", "Svelte", "Angular"],
+       "createdOn": "2024-01-20"
+     },
+     {
+       "id": "14",
+       "title": "React",
+       "url": "https://reactjs.org/",
+       "description": "A JavaScript library for building user interfaces.",
+       "category": "Frontend",
+       "tags": ["React"],
+       "createdOn": "2024-01-20"
     }
 ]
-  
