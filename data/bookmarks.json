@@ -1,0 +1,93 @@
+[
+    {
+      "id": "1",
+      "title": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "description": "Comprehensive documentation for HTML, CSS, JavaScript, and Web APIs.",
+      "category": "Documentation",
+      "tags": ["HTML", "CSS", "JavaScript", "Web APIs"],
+      "createdOn": "2024-01-10"
+    },
+    {
+      "id": "2",
+      "title": "CSS Tricks",
+      "url": "https://css-tricks.com",
+      "description": "Tips, tricks, and techniques for using CSS effectively.",
+      "category": "CSS",
+      "tags": ["CSS", "Design", "Frontend"],
+      "createdOn": "2024-02-05"
+    },
+    {
+      "id": "3",
+      "title": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com",
+      "description": "Online magazine for web developers and designers.",
+      "category": "Design",
+      "tags": ["UI", "UX", "CSS", "HTML"],
+      "createdOn": "2024-01-25"
+    },
+    {
+      "id": "4",
+      "title": "JavaScript Info",
+      "url": "https://javascript.info",
+      "description": "Modern JavaScript tutorial and deep dive into the language.",
+      "category": "JavaScript",
+      "tags": ["JavaScript", "ES6", "Programming"],
+      "createdOn": "2024-03-01"
+    },
+    {
+      "id": "5",
+      "title": "React Docs",
+      "url": "https://react.dev",
+      "description": "Official React documentation and tutorials.",
+      "category": "React",
+      "tags": ["React", "JavaScript", "Frontend"],
+      "createdOn": "2024-02-15"
+    },
+    {
+      "id": "6",
+      "title": "Svelte Docs",
+      "url": "https://svelte.dev",
+      "description": "Svelte framework documentation and examples.",
+      "category": "Svelte",
+      "tags": ["Svelte", "Frontend", "JavaScript"],
+      "createdOn": "2024-03-05"
+    },
+    {
+      "id": "7",
+      "title": "Component Party",
+      "url": "https://component-party.dev",
+      "description": "Compare UI component approaches across frameworks.",
+      "category": "Frameworks",
+      "tags": ["React", "Vue", "Svelte", "Angular"],
+      "createdOn": "2024-01-20"
+    },
+    {
+      "id": "8",
+      "title": "Web.dev",
+      "url": "https://web.dev",
+      "description": "Best practices and tools for modern web development.",
+      "category": "Performance",
+      "tags": ["SEO", "Lighthouse", "Performance"],
+      "createdOn": "2024-02-22"
+    },
+    {
+      "id": "9",
+      "title": "Node.js Docs",
+      "url": "https://nodejs.org/docs",
+      "description": "Official documentation for Node.js runtime.",
+      "category": "Backend",
+      "tags": ["Node.js", "JavaScript", "Server"],
+      "createdOn": "2024-03-08"
+    },
+    {
+      "id": "10",
+      "title": "Google Fonts",
+      "url": "https://fonts.google.com",
+      "description": "Free, open-source fonts for the web.",
+      "category": "Design",
+      "tags": ["Typography", "UI", "Fonts"],
+      "createdOn": "2024-01-12"
+    }
+]
+  
