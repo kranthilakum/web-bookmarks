@@ -20,9 +20,9 @@ Web Bookmarks is a responsive Next.js web page designed to display and manage a 
 - **JSON Data Source**: Fast, file-based bookmark storage.
 
 ## Installation & Setup
-1. Clone the repository:
+1. Fork and Clone the repository:
    ```bash
-   git clone https://github.com/your-username/web-bookmarks.git
+   git clone https://github.com/<your-username>/web-bookmarks.git
    cd web-bookmarks
    ```
 2. Install dependencies:

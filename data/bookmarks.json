@@ -124,5 +124,25 @@
        "category": "Frontend",
        "tags": ["React"],
        "createdOn": "2024-01-20"
-    }
+    },
+    {
+      "id": "15",
+      "title": "Clone Wars",
+      "url": "https://github.com/GorvGoyl/Clone-Wars",
+      "description": "100+ open-source clones of popular sites like Instagram, Netflix, Tiktok, etc.",
+      "category": "Projects",
+      "tags": ["GitHub"],
+      "createdOn": "2024-02-20",
+      "notes": "https://gourav.io/clone-wars"
+   },
+   {
+    "id": "16",
+    "title": "RealWorld example apps",
+    "url": "https://github.com/gothinkster/realworld",
+    "description": "Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",
+    "category": "Projects",
+    "tags": ["GitHub"],
+    "createdOn": "2024-02-20",
+    "notes": ""
+ }
 ]
