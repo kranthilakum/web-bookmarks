@@ -16,6 +16,19 @@ export default function Home() {
   const allCategories = [...new Set(bookmarksData.map((b) => b.category))];
   const allTags = [...new Set(bookmarksData.flatMap((b) => b.tags || []))];
 
+  const totalBookmarks = bookmarksData?.length || 0;
+  const totalCategories = allCategories?.length || 0;
+  const totalTags = allTags?.length || 0;
+
+  const bookmarksPerCategory = allCategories?.map((cat) => ({
+    category: cat,
+    count: bookmarksData.filter((b) => b.category === cat).length,
+  }));
+  const bookmarksPerTag = allTags.map((tag) => ({
+    tag,
+    count: bookmarksData.filter((b) => (b.tags || []).includes(tag)).length,
+  }));
+
   useEffect(() => {
     setTimeout(() => setLoading(false), 1000);
   }, []);
@@ -66,7 +79,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-6">
           {/* Sidebar */}
           <aside className="w-full md:w-64 bg-white rounded-xl p-4 shadow sticky top-6 h-fit">
-            <h3 className="font-semibold mb-3 text-gray-700">Categories</h3>
+            <h3 className="font-semibold mb-3 text-gray-700">Categories ({totalCategories})</h3>
             <ul className="space-y-2 max-h-60 overflow-y-auto">
               <li
                 className={`cursor-pointer px-3 py-1 rounded hover:bg-blue-100 ${
@@ -76,21 +89,21 @@ export default function Home() {
               >
                 All
               </li>
-              {allCategories.map((cat) => (
+              {bookmarksPerCategory.map((item, index) => (
                 <li
-                  key={cat}
+                  key={item.index}
                   className={`cursor-pointer px-3 py-1 rounded hover:bg-blue-100 ${
-                    category === cat ? "bg-blue-200 font-bold" : ""
+                    category === item.category ? "bg-blue-200 font-bold" : ""
                   }`}
-                  onClick={() => setCategory(cat)}
+                  onClick={() => setCategory(item.category)}
                 >
-                  {cat}
+                  {item.category} ({item.count})
                 </li>
               ))}
             </ul>
 
             <h3 className="font-semibold mt-6 mb-3 text-gray-700 flex justify-between items-center">
-              Tags
+              Tags ({totalTags})
               {selectedTags.length > 0 && (
                 <button onClick={clearTags} className="text-sm text-red-500 hover:underline">
                   Clear
@@ -98,19 +111,19 @@ export default function Home() {
               )}
             </h3>
             <div className="flex flex-wrap gap-2">
-              {allTags.map((tag) => {
-                const isSelected = selectedTags.includes(tag);
+              {bookmarksPerTag.map((item, index) => {
+                const isSelected = selectedTags.includes(item.tag);
                 return (
                   <span
-                    key={tag}
-                    onClick={() => handleTagClick(tag)}
+                    key={item.index}
+                    onClick={() => handleTagClick(item.tag)}
                     className={`text-sm px-3 py-1 rounded-full cursor-pointer transition ${
                       isSelected
                         ? "bg-blue-600 text-white"
                         : "bg-gray-200 hover:bg-blue-200"
                     }`}
                   >
-                    {tag}
+                    {item.tag} ({item.count})
                   </span>
                 );
               })}

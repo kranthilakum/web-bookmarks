@@ -36,19 +36,19 @@ Web Bookmarks is a responsive Next.js web page designed to display and manage a 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Future Enhancements
-- ⭐ **Favorites**: Allow users to mark bookmarks as favorites.
-- 🗂️ **Multi-Tag Filtering**: Allow users to filter bookmarks by one or more tags.
-- 📜 **Infinite Scroll or Pagination**: Instead of showing all results at once, implement infinite scroll or paginated results.
-- 🌗 **Dark Mode**: Add support for dark theme.
-- 🖼️ **Thumbnail Previews**: Fetch website previews dynamically.
-- 🕵️‍♂️ **Enhanced Typeahead Search**: Show a real-time dropdown of matching bookmarks as users type.
-- 📊 **Bookmark Stats & Insights**: Show stats like number of bookmarks per category, number of categories, and number of tags.
-- 📅 **Recently Added Bookmarks**: Show recently added bookmarks.
-- 📈 **Trending Bookmarks**: Show trending bookmarks.
-- 📄 **Dedicated Bookmark Pages**: Clicking on a bookmark could open a detailed page with additional info, tags, and related bookmarks.
-- 🧑‍💻 **Shareable Bookmark Collections**: Let users generate a shareable link for selected bookmarks.
-- 📵 **Offline access with Service Workers**: Allow bookmarks to be saved to local storage and loaded offline.
-- 📡 **RSS Feed Integration**: Allow users to add RSS feeds to auto-update certain bookmark categories dynamically.
+- [] ⭐ **Favorites**: Allow users to mark bookmarks as favorites.
+- [x] 🗂️ **Multi-Tag Filtering**: Allow users to filter bookmarks by one or more tags.
+- [] 📜 **Infinite Scroll or Pagination**: Instead of showing all results at once, implement infinite scroll or paginated results.
+- [] 🌗 **Dark Mode**: Add support for dark theme.
+- [] 🖼️ **Thumbnail Previews**: Fetch website previews dynamically.
+- [] 🕵️‍♂️ **Enhanced Typeahead Search**: Show a real-time dropdown of matching bookmarks as users type.
+- [x] 📊 **Bookmark Stats & Insights**: Show stats like number of bookmarks per category, number of categories, and number of tags.
+- [] 📅 **Recently Added Bookmarks**: Show recently added bookmarks.
+- [] 📈 **Trending Bookmarks**: Show trending bookmarks.
+- [] 📄 **Dedicated Bookmark Pages**: Clicking on a bookmark could open a detailed page with additional info, tags, and related bookmarks.
+- [] 🧑‍💻 **Shareable Bookmark Collections**: Let users generate a shareable link for selected bookmarks.
+- [] 📵 **Offline access with Service Workers**: Allow bookmarks to be saved to local storage and loaded offline.
+- [] 📡 **RSS Feed Integration**: Allow users to add RSS feeds to auto-update certain bookmark categories dynamically.
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit a pull request with improvements.
